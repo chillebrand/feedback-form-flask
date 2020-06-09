@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Thank you!</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <img src={{ url_for('static', filename='logo.jpg') }} alt="Gilkey" class="logo">
+    <h1>Thank you!</h1>
+    <h2>Thank you for your feedback. We hope to see you soon!</h2>
+</div>
+{% endblock %}
